@@ -23,4 +23,4 @@ listaCognomi.sort();
 
 //indica la posizione del nuovo cognome aggiunto
 console.log(listaCognomi);
-console.log(listaCognomi.indexOf(cognomeUtente) + 1);
+console.log(cognomeUtente + ' si trova nella posizione numero ' + (listaCognomi.indexOf(cognomeUtente) + 1) + ' della lista.');
